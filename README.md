@@ -30,12 +30,12 @@ pip install requests geopandas pandas matplotlib
 
 2. Run the script:
    ```python
-   python pyscript2.py
+   Wildfires_USA.ipynb
    ```
 
 3. Output files:
    - `burnt_area_by_county_[STATE_NAME].csv`: Tabular data showing burnt area by county
-   - `burnt_area_map_[STATE_NAME].png`: Visualization map of the burnt areas
+   - `burnt_area_map_[STATE_NAME].png`: Visualisation map of the burnt areas
 
 ## How It Works
 
@@ -65,7 +65,7 @@ This tool uses ArcGIS REST services:
 
 For a state analysis, you'll get:
 - A CSV file with each county and its burnt area in acres
-- A map visualizing the burnt areas with the top 5 most affected counties labeled
+- A map visualising the burnt areas with the top 5 most affected counties labeled
 
 ## Notes
 
@@ -132,7 +132,7 @@ The tool generates two main outputs:
 
 ## Data Sources
 This tool uses the following data sources:
-- County boundaries: ArcGIS REST service (USA Counties Generalized Boundaries)
+- County boundaries: ArcGIS REST service (USA Counties Generalised Boundaries)
 - Fire perimeters: WFIGS Interagency Perimeters YearToDate service
 
 ## Licence
